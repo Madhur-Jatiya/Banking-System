@@ -13,22 +13,6 @@ final public class Operations extends User{
     private Transaction transaction = new Transaction();
     
     Scanner sc = new Scanner(System.in); 
-        
-    public void exitOrContinue()
-    {
-        
-        System.out.print("\nPress 1 for continue and any key for exit : ");
-        String x = sc.next();
-        
-        if (x.equals("1")) {
-            mainMenu();
-        }
-        
-        else
-        {
-            exit();
-        }
-    }
      
     public void mainMenu()
     {
@@ -96,7 +80,7 @@ final public class Operations extends User{
         System.out.println("Account Number :" + accountNumber);
         System.out.println("IFSC Code :" + ifscCode);
        
-        exitOrContinue();
+        mainMenu();
     }
    
     
@@ -108,7 +92,7 @@ final public class Operations extends User{
         transaction.transactionUpdate(id, "Debit", -amount);
         id++;
         
-        exitOrContinue();
+        mainMenu();
     }
     
     public void creditDetails()
@@ -119,7 +103,7 @@ final public class Operations extends User{
         transaction.transactionUpdate(id, "Credit", amount);
         id++;
         
-        exitOrContinue();
+        mainMenu();
     }
     
     public void searchByAmount()
@@ -128,20 +112,20 @@ final public class Operations extends User{
         amount = sc.nextDouble();
         transaction.transationSearch(amount);
 
-        exitOrContinue();
+        mainMenu();
     }
     
     final public void viewTransactionHistory()
     {
         transaction.viewAllTransactions();
 
-        exitOrContinue();
+        mainMenu();
     }
     
     final public void viewAccountBalance()
     {        
         System.out.println("Your Account balance is : " + accountBalance);
-        exitOrContinue();
+        mainMenu();
     }
     
     public void exit()
