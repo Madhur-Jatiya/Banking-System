@@ -1,0 +1,8 @@
+Madhur Jatiya, 1234567890, madhur@gmail.com, 21, 6572384.23
+Lokesh Nargesh, 0987654321, lokesh@gmail.com, 22, 625374.4324
+Rani Ahire, 5678903232, rani@gmail.com, 22, 623442.32
+Anurag Jain, 5461676841, anu@gmail.com, 21, 5464.4
+Akash Rohit, 4564165416, akash@gmail.com, 22, 256156.265
+Nisha Jatiya, 458125158, nisha@gmail.com, 45, 854.54
+Rajiv Ghandhi, 52945185, rajiv@gmail.com, 78, 59854.485
+Akshada Pharande, 1234567893, akshu@gmail.com, 23, 541854.0
