@@ -8,3 +8,5 @@ The project also includes a number of security features to ensure that user info
 The Command Line Basic Banking System Project is an ideal tool for those who want to perform basic banking operations quickly and securely from the command line. It can be easily customized to meet the specific needs of different users and can be further enhanced with additional features as required.
 
 Overall, the project is an excellent example of Java-based application development and provides a valuable tool for managing basic banking operations from the command line.
+
+![Java-Logo](https://user-images.githubusercontent.com/98956159/193762108-ae021ff5-170e-4464-a877-c3c2c88cd327.png)
